@@ -1,15 +1,11 @@
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" id="contact-footer">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
-                        </p>
+                        <h3>{{ site.footer.credits }}</h3>
+                        <p>{{ site.credits }}</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.social }}</h3>
@@ -22,8 +18,12 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                        <h3>{{ site.footer.location }}</h3>
+                        <p>
+                            {% for adress in site.address %}
+                                {{ adress.line }} <br>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
             </div>

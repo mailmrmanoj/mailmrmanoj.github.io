@@ -4,6 +4,17 @@
     padding-top: 100px;
 }*/
 
+
+.profile-pic{
+	width: 18%;
+}
+
+@media(max-width:768px) {
+ 	.profile-pic{
+		width: 45%;
+	}
+}
+
 .post .post-header{
     background: white;
     color: #18bc9c;
@@ -30,7 +41,6 @@
  .innerpage_heading {
   padding-top: 10%;
   min-height: 100px;
-  background-color: #{{ site.color.secondary-dark}}; 
 }
 }
 
