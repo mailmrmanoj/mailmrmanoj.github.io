@@ -6,6 +6,7 @@ description: "Write an awesome description for your new site here. You can edit 
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 
+gems: [jekyll-paginate]
 # Google webmaster tools
 google_verify:
 
@@ -48,6 +49,9 @@ social:
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
+
+paginate: 10
+paginate_path: "blog/page:num/"
 
 # Postal address (add as many lines as necessary)
 address:

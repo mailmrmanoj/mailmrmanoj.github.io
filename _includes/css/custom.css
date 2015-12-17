@@ -1,0 +1,49 @@
+/*CSS for blog*/
+
+/*.blogindex-body .content-row{
+    padding-top: 100px;
+}*/
+
+.post .post-header{
+    background: white;
+    color: #18bc9c;
+    text-align: left;
+}
+
+.post .post-header .meta{
+    color: #818181;
+}
+
+/* Heading on each page */
+
+.innerpage_heading {
+  padding-top: 1px;
+  min-height: 50px;
+}
+
+.innerpage_heading h1{
+	margin-top: 12%;
+}
+
+
+@media(max-width:768px) {
+ .innerpage_heading {
+  padding-top: 10%;
+  min-height: 100px;
+  background-color: #{{ site.color.secondary-dark}}; 
+}
+}
+
+
+
+/*Blog CSS*/
+
+.posts .post-link{
+	font-size: 170%;
+  	font-weight: 700;
+}
+
+.posts .post-date{
+	color: #818181;
+	font-size: 100%;
+}
