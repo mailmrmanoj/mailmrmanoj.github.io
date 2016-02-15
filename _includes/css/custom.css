@@ -9,6 +9,24 @@
 	width: 18%;
 }
 
+.intro-text{
+  color: #2c3e50 !important; 
+}
+
+hr.star-light{
+  border-color: #2c3e50 !important; 
+}
+
+hr.star-light:after, hr.star-primary:after{
+  color: #2c3e50 !important;
+  background-color: #fff;
+}
+
+header{
+  background: #fff;
+}
+
+
 @media(max-width:768px) {
  	.profile-pic{
 		width: 45%;

@@ -41,15 +41,15 @@ footer:
 social:
   - title: twitter
     url: http://twitter.com/shashankgowdal
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
-
+    url: http://github.com/shashankgowdal
+  - title: linkedin
+    url: https://in.linkedin.com/in/shashankgowdal
+  - title: google
+    url: mailto:shashankgowda.me@gmail.com
+  # - title: bitbucket
+  #   url: http://bitbucket.org/jekyll
+  
 paginate: 10
 paginate_path: "blog/page:num/"
 
